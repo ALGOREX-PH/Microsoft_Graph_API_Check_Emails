@@ -52,9 +52,3 @@ async def chat(request: Request):
 @app.get("/")
 async def root():
     return {"message": "Check Emails!"}
-
-
-
-
-
-# Email details
